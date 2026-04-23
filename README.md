@@ -1,14 +1,14 @@
 # 🧠 Handwritten Digit Classifier (MNIST) using TensorFlow
 
-## 📌 Overview
+##  Overview
 
 This project is a simple deep learning-based handwritten digit classifier built using TensorFlow and Keras. It uses the famous MNIST dataset to recognize digits (0–9) from grayscale images.
 
 The model is a basic Artificial Neural Network (ANN) with fully connected layers.
 
----
+--
 
-## 🚀 Features
+##  Features
 
 * Uses MNIST dataset (built-in with Keras)
 * Preprocessing with normalization
@@ -18,7 +18,7 @@ The model is a basic Artificial Neural Network (ANN) with fully connected layers
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * TensorFlow / Keras
@@ -27,7 +27,7 @@ The model is a basic Artificial Neural Network (ANN) with fully connected layers
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used is **MNIST**, which contains:
 
@@ -37,7 +37,7 @@ The dataset used is **MNIST**, which contains:
 
 ---
 
-## 🧩 Model Architecture
+##  Model Architecture
 
 * Flatten Layer (28x28 → 784)
 * Dense Layer (128 neurons, ReLU activation)
@@ -47,7 +47,7 @@ Total Parameters: **101,770**
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 pip install tensorflow scikit-learn numpy
@@ -55,7 +55,7 @@ pip install tensorflow scikit-learn numpy
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python your_script_name.py
@@ -63,7 +63,7 @@ python your_script_name.py
 
 ---
 
-## 🔍 Workflow
+##  Workflow
 
 1. Load MNIST dataset
 2. Normalize pixel values (0–255 → 0–1)
@@ -83,13 +83,13 @@ python your_script_name.py
 
 ---
 
-## 📸 Sample Output
+##  Sample Output
 
 The model predicts digits correctly for most handwritten inputs.
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Use CNN for better accuracy
 * Add dropout to prevent overfitting
@@ -98,7 +98,7 @@ The model predicts digits correctly for most handwritten inputs.
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Feel free to fork this repository and improve the model or UI.
 
